@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout android:id="@+id/photogallery"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+
+	<Gallery xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/examplegallery" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:layout_marginTop="40dip"
+		android:layout_alignParentTop="true" />
+
+	<ImageView android:id="@+id/ImageView01"
+		android:layout_width="300dip" android:layout_height="280dip"
+		android:layout_centerHorizontal="true" android:layout_below="@+id/examplegallery" />
+
+	<LinearLayout android:layout_alignParentBottom="true"
+		android:layout_width="fill_parent" android:id="@+id/bottomPanel"
+		android:layout_height="wrap_content" android:background="#FFFFFF">
+		<Button android:id="@+id/takepicture" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:layout_marginLeft="120dip"
+			android:layout_gravity="center_horizontal" android:background="@drawable/image10"></Button>
+		<Button android:id="@+id/DeletePhoto" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:background="@drawable/image13"
+			android:layout_marginLeft="90dip" android:textColor="#FFFFFF">
+		</Button>
+	</LinearLayout>
+</RelativeLayout>

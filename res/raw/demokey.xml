@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Key_components xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation='oaktool.xsd'>
+	<splash>
+		<key_title>phlox key</key_title>
+		<key_author>Marguerite C. Murphy</key_author>
+		<software_authors>Alexander Birger, Omkar Dangat, XuYuan Si, Nandeesh
+			C Rajashekar</software_authors>
+		<date>2012-01-25</date>
+		<bg_image></bg_image>
+	</splash>
+	<organisms>
+		<organism>
+			<org_id>1</org_id>
+			<common_name></common_name>
+			<family></family>
+			<genus></genus>
+			<species></species>
+			<leaves></leaves>
+			<inflorescence></inflorescence>
+			<flower></flower>
+			<fruit></fruit>
+			<ecology></ecology>
+			<seeds></seeds>
+			<elevation></elevation>
+			<bioregional_distribution></bioregional_distribution>
+			<taxon_id></taxon_id>
+			<jepson_url></jepson_url>
+			<image>Polemonium.jpg</image>
+		</organism>
+		<organism>
+			<org_id>2</org_id>
+			<common_name></common_name>
+			<family></family>
+			<genus></genus>
+			<species></species>
+			<leaves></leaves>
+			<inflorescence></inflorescence>
+			<flower></flower>
+			<fruit></fruit>
+			<ecology></ecology>
+			<seeds></seeds>
+			<elevation></elevation>
+			<bioregional_distribution></bioregional_distribution>
+			<taxon_id></taxon_id>
+			<jepson_url></jepson_url>
+			<image>Phlox.jpg</image>
+		</organism>
+		<organism>
+			<org_id>3</org_id>
+			<common_name></common_name>
+			<family></family>
+			<genus></genus>
+			<species></species>
+			<leaves></leaves>
+			<inflorescence></inflorescence>
+			<flower></flower>
+			<fruit></fruit>
+			<ecology></ecology>
+			<seeds></seeds>
+			<elevation></elevation>
+			<bioregional_distribution></bioregional_distribution>
+			<taxon_id></taxon_id>
+			<jepson_url></jepson_url>
+			<image>Collomia.jpg</image>
+		</organism>
+		<organism>
+			<org_id>4</org_id>
+			<common_name></common_name>
+			<family></family>
+			<genus></genus>
+			<species></species>
+			<leaves></leaves>
+			<inflorescence></inflorescence>
+			<flower></flower>
+			<fruit></fruit>
+			<ecology></ecology>
+			<seeds></seeds>
+			<elevation></elevation>
+			<bioregional_distribution></bioregional_distribution>
+			<taxon_id></taxon_id>
+			<jepson_url></jepson_url>
+			<image>Microsteris.jpg</image>
+		</organism>
+		<organism>
+			<org_id>5</org_id>
+			<common_name></common_name>
+			<family></family>
+			<genus></genus>
+			<species></species>
+			<leaves></leaves>
+			<inflorescence></inflorescence>
+			<flower></flower>
+			<fruit></fruit>
+			<ecology></ecology>
+			<seeds></seeds>
+			<elevation></elevation>
+			<bioregional_distribution></bioregional_distribution>
+			<taxon_id></taxon_id>
+			<jepson_url></jepson_url>
+			<image>Leptosiphon.jpg</image>
+		</organism>
+		<organism>
+			<org_id>6</org_id>
+			<common_name></common_name>
+			<family></family>
+			<genus></genus>
+			<species></species>
+			<leaves></leaves>
+			<inflorescence></inflorescence>
+			<flower></flower>
+			<fruit></fruit>
+			<ecology></ecology>
+			<seeds></seeds>
+			<elevation></elevation>
+			<bioregional_distribution></bioregional_distribution>
+			<taxon_id></taxon_id>
+			<jepson_url></jepson_url>
+			<image>Eriastrum.jpg</image>
+		</organism>
+		<organism>
+			<org_id>7</org_id>
+			<common_name></common_name>
+			<family></family>
+			<genus></genus>
+			<species></species>
+			<leaves></leaves>
+			<inflorescence></inflorescence>
+			<flower></flower>
+			<fruit></fruit>
+			<ecology></ecology>
+			<seeds></seeds>
+			<elevation></elevation>
+			<bioregional_distribution></bioregional_distribution>
+			<taxon_id></taxon_id>
+			<jepson_url></jepson_url>
+			<image>Linanthus.jpg</image>
+		</organism>
+		<organism>
+			<org_id>8</org_id>
+			<common_name></common_name>
+			<family></family>
+			<genus></genus>
+			<species></species>
+			<leaves></leaves>
+			<inflorescence></inflorescence>
+			<flower></flower>
+			<fruit></fruit>
+			<ecology></ecology>
+			<seeds></seeds>
+			<elevation></elevation>
+			<bioregional_distribution></bioregional_distribution>
+			<taxon_id></taxon_id>
+			<jepson_url></jepson_url>
+			<image>Navarretia.jpg</image>
+		</organism>
+		<organism>
+			<org_id>9</org_id>
+			<common_name></common_name>
+			<family></family>
+			<genus></genus>
+			<species></species>
+			<leaves></leaves>
+			<inflorescence></inflorescence>
+			<flower></flower>
+			<fruit></fruit>
+			<ecology></ecology>
+			<seeds></seeds>
+			<elevation></elevation>
+			<bioregional_distribution></bioregional_distribution>
+			<taxon_id></taxon_id>
+			<jepson_url></jepson_url>
+			<image>Allophyllum.jpg</image>
+		</organism>
+		<organism>
+			<org_id>10</org_id>
+			<common_name></common_name>
+			<family></family>
+			<genus></genus>
+			<species></species>
+			<leaves></leaves>
+			<inflorescence></inflorescence>
+			<flower></flower>
+			<fruit></fruit>
+			<ecology></ecology>
+			<seeds></seeds>
+			<elevation></elevation>
+			<bioregional_distribution></bioregional_distribution>
+			<taxon_id></taxon_id>
+			<jepson_url></jepson_url>
+			<image>Gilia.jpg</image>
+		</organism>
+	</organisms>
+	<Nodes>
+		<Node>
+			<nodeID>0</nodeID>
+			<parentID>-1</parentID>
+			<isLeafNode>no</isLeafNode>
+			<leftChildID>1</leftChildID>
+			<leftChildDescription>Perennials</leftChildDescription>
+			<left_image></left_image>
+			<rightChildID>1_</rightChildID>
+			<rightChildDescription>Annuals</rightChildDescription>
+			<right_image></right_image>
+			<organism_id></organism_id>
+		</Node>
+		<Node>
+			<nodeID>1</nodeID>
+			<parentID>0</parentID>
+			<isLeafNode>no</isLeafNode>
+			<leftChildID>2</leftChildID>
+			<leftChildDescription>Leaves pinnately compound with oval leaflets
+				..... </leftChildDescription>
+			<left_image></left_image>
+			<rightChildID>2_</rightChildID>
+			<rightChildDescription>Leaves simple .... </rightChildDescription>
+			<right_image></right_image>
+			<organism_id></organism_id>
+		</Node>
+		<Node>
+			<nodeID>1_</nodeID>
+			<parentID>0</parentID>
+			<isLeafNode>no</isLeafNode>
+			<leftChildID>3</leftChildID>
+			<leftChildDescription>Calyx membrane narrow, spout-like toward tip
+				..... </leftChildDescription>
+			<left_image></left_image>
+			<rightChildID>3_</rightChildID>
+			<rightChildDescription>Calyx membrane narrow or wide, but not
+				spout-like toward tip</rightChildDescription>
+			<right_image></right_image>
+			<organism_id></organism_id>
+		</Node>
+		<Node>
+			<nodeID>2</nodeID>
+			<parentID>1</parentID>
+			<isLeafNode>yes</isLeafNode>
+			<leftChildID></leftChildID>
+			<leftChildDescription></leftChildDescription>
+			<left_image></left_image>
+			<rightChildID></rightChildID>
+			<rightChildDescription></rightChildDescription>
+			<right_image></right_image>
+			<organism_id>1</organism_id>
+		</Node>
+		<Node>
+			<nodeID>2_</nodeID>
+			<parentID>1</parentID>
+			<isLeafNode>yes</isLeafNode>
+			<leftChildID></leftChildID>
+			<leftChildDescription></leftChildDescription>
+			<left_image></left_image>
+			<rightChildID></rightChildID>
+			<rightChildDescription></rightChildDescription>
+			<right_image></right_image>
+			<organism_id>2</organism_id>
+		</Node>
+		<Node>
+			<nodeID>3</nodeID>
+			<parentID>1_</parentID>
+			<isLeafNode>yes</isLeafNode>
+			<leftChildID></leftChildID>
+			<leftChildDescription></leftChildDescription>
+			<left_image></left_image>
+			<rightChildID></rightChildID>
+			<rightChildDescription></rightChildDescription>
+			<right_image></right_image>
+			<organism_id>3</organism_id>
+		</Node>
+		<Node>
+			<nodeID>3_</nodeID>
+			<parentID>1_</parentID>
+			<isLeafNode>no</isLeafNode>
+			<leftChildID>4</leftChildID>
+			<leftChildDescription>Leaves cauline, opposite below, alternate or
+				opposite above</leftChildDescription>
+			<left_image></left_image>
+			<rightChildID>4_</rightChildID>
+			<rightChildDescription>Leaves basal and/or cauline, alternate or �
+				opposite below, alternate above</rightChildDescription>
+			<right_image></right_image>
+			<organism_id></organism_id>
+		</Node>
+		<Node>
+			<nodeID>4</nodeID>
+			<parentID>3_</parentID>
+			<isLeafNode>no</isLeafNode>
+			<leftChildID>5</leftChildID>
+			<leftChildDescription>Stamens attached at > 1 level; lvs not lobed
+				..... </leftChildDescription>
+			<left_image></left_image>
+			<rightChildID>5_</rightChildID>
+			<rightChildDescription>Stamens attached at 1 level; lvs palmate-lobed</rightChildDescription>
+			<right_image></right_image>
+			<organism_id></organism_id>
+		</Node>
+		<Node>
+			<nodeID>4_</nodeID>
+			<parentID>3_</parentID>
+			<isLeafNode>no</isLeafNode>
+			<leftChildID>7</leftChildID>
+			<leftChildDescription>Calyx lobes unequal in length</leftChildDescription>
+			<left_image></left_image>
+			<rightChildID>7_</rightChildID>
+			<rightChildDescription>Calyx lobes equal in length length</rightChildDescription>
+			<right_image></right_image>
+			<organism_id></organism_id>
+		</Node>
+		<Node>
+			<nodeID>5</nodeID>
+			<parentID>4</parentID>
+			<isLeafNode>yes</isLeafNode>
+			<leftChildID></leftChildID>
+			<leftChildDescription></leftChildDescription>
+			<left_image></left_image>
+			<rightChildID></rightChildID>
+			<rightChildDescription></rightChildDescription>
+			<right_image></right_image>
+			<organism_id>4</organism_id>
+		</Node>
+		<Node>
+			<nodeID>5_</nodeID>
+			<parentID>4</parentID>
+			<isLeafNode>no</isLeafNode>
+			<leftChildID>6</leftChildID>
+			<leftChildDescription>Corolla open during day time .....</leftChildDescription>
+			<left_image></left_image>
+			<rightChildID>6_</rightChildID>
+			<rightChildDescription>Corolla open only at night (closed in day)
+				..... </rightChildDescription>
+			<right_image></right_image>
+			<organism_id></organism_id>
+		</Node>
+		<Node>
+			<nodeID>7</nodeID>
+			<parentID>4_</parentID>
+			<isLeafNode>no</isLeafNode>
+			<leftChildID>8</leftChildID>
+			<leftChildDescription>Inflorescence with dense woolly hairs among
+				flowers ..... </leftChildDescription>
+			<left_image></left_image>
+			<rightChildID>8_</rightChildID>
+			<rightChildDescription>Inflorescence not woolly but with dense spiny
+				bracts subtending flowers .....  </rightChildDescription>
+			<right_image></right_image>
+			<organism_id></organism_id>
+		</Node>
+		<Node>
+			<nodeID>7_</nodeID>
+			<parentID>4_</parentID>
+			<isLeafNode>no</isLeafNode>
+			<leftChildID>9</leftChildID>
+			<leftChildDescription>Upper cauline leaves palmately-wide-lobed with
+				terminal lobe wider than lateral lobes , similar to lower cauline
+				leaves ..... </leftChildDescription>
+			<left_image></left_image>
+			<rightChildID>9_</rightChildID>
+			<rightChildDescription>Upper cauline leaves pinnately-narrow-lobed
+				with terminal lobe width narrower than lateral lobes, different from
+				bas al leaves</rightChildDescription>
+			<right_image></right_image>
+			<organism_id></organism_id>
+		</Node>
+		<Node>
+			<nodeID>6</nodeID>
+			<parentID>5_</parentID>
+			<isLeafNode>yes</isLeafNode>
+			<leftChildID></leftChildID>
+			<leftChildDescription></leftChildDescription>
+			<left_image></left_image>
+			<rightChildID></rightChildID>
+			<rightChildDescription></rightChildDescription>
+			<right_image></right_image>
+			<organism_id>5</organism_id>
+		</Node>
+		<Node>
+			<nodeID>6_</nodeID>
+			<parentID>5_</parentID>
+			<isLeafNode>yes</isLeafNode>
+			<leftChildID></leftChildID>
+			<leftChildDescription></leftChildDescription>
+			<left_image></left_image>
+			<rightChildID></rightChildID>
+			<rightChildDescription></rightChildDescription>
+			<right_image></right_image>
+			<organism_id>6</organism_id>
+		</Node>
+		<Node>
+			<nodeID>8</nodeID>
+			<parentID>7</parentID>
+			<isLeafNode>yes</isLeafNode>
+			<leftChildID></leftChildID>
+			<leftChildDescription></leftChildDescription>
+			<left_image></left_image>
+			<rightChildID></rightChildID>
+			<rightChildDescription></rightChildDescription>
+			<right_image></right_image>
+			<organism_id>7</organism_id>
+		</Node>
+		<Node>
+			<nodeID>8_</nodeID>
+			<parentID>7</parentID>
+			<isLeafNode>yes</isLeafNode>
+			<leftChildID></leftChildID>
+			<leftChildDescription></leftChildDescription>
+			<left_image></left_image>
+			<rightChildID></rightChildID>
+			<rightChildDescription></rightChildDescription>
+			<right_image></right_image>
+			<organism_id>8</organism_id>
+		</Node>
+		<Node>
+			<nodeID>9</nodeID>
+			<parentID>7_</parentID>
+			<isLeafNode>yes</isLeafNode>
+			<leftChildID></leftChildID>
+			<leftChildDescription></leftChildDescription>
+			<left_image></left_image>
+			<rightChildID></rightChildID>
+			<rightChildDescription></rightChildDescription>
+			<right_image></right_image>
+			<organism_id>9</organism_id>
+		</Node>
+		<Node>
+			<nodeID>9_</nodeID>
+			<parentID>7_</parentID>
+			<isLeafNode>yes</isLeafNode>
+			<leftChildID></leftChildID>
+			<leftChildDescription></leftChildDescription>
+			<left_image></left_image>
+			<rightChildID></rightChildID>
+			<rightChildDescription></rightChildDescription>
+			<right_image></right_image>
+			<organism_id>10</organism_id>
+		</Node>
+	</Nodes>
+	<GlossaryItems>
+		<GlossaryItem>
+			<itemID>1</itemID>
+			<title>leaf margins entire</title>
+			<itemImage>glossary1.jpg</itemImage>
+			<description>Outer edges of leaves are smooth.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>2</itemID>
+			<title>inflorescence spike</title>
+			<itemImage></itemImage>
+			<description>Flowers arranged along an upright stalk.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>3</itemID>
+			<title>sepal</title>
+			<itemImage></itemImage>
+			<description>Modified leaves surrounding flower petals.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>4</itemID>
+			<title>stamen</title>
+			<itemImage></itemImage>
+			<description>Flower part that releases pollen.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>5</itemID>
+			<title>leaf margins serrated</title>
+			<itemImage></itemImage>
+			<description>Edges of leaves are jagged.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>6</itemID>
+			<title>spikey scales</title>
+			<itemImage></itemImage>
+			<description>Outer surface of scale has a long, pointed spike.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>7</itemID>
+			<title>calyx</title>
+			<itemImage></itemImage>
+			<description>The sepals of a flower, usually arranged in a cuplike
+				shape.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>8</itemID>
+			<title>catkin</title>
+			<itemImage></itemImage>
+			<description>Dense, drooping collection of flowers without petals.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>9</itemID>
+			<title>scaley cap</title>
+			<itemImage></itemImage>
+			<description>Cap is covered with thin, somewhat convex pointed
+				scales.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>10</itemID>
+			<title>warty cap</title>
+			<itemImage></itemImage>
+			<description>Cap is covered with thick, somewhat concave scales.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>11</itemID>
+			<title>evergreen</title>
+			<itemImage></itemImage>
+			<description>Evergreen leaves are not shed seasonally.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>12</itemID>
+			<title>deciduous</title>
+			<itemImage></itemImage>
+			<description>Deciduous leaves are shed seasonally.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>13</itemID>
+			<title>nut</title>
+			<itemImage></itemImage>
+			<description>Simple, dry fruit with one seed.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>14</itemID>
+			<title>acorn</title>
+			<itemImage></itemImage>
+			<description>The fruit of an oak tree, generally rounded and
+				partially covered by a cap.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>15</itemID>
+			<title>leaf margins deeply lobed</title>
+			<itemImage></itemImage>
+			<description>Leaf edges are smooth but deeply indented.</description>
+		</GlossaryItem>
+		<GlossaryItem>
+			<itemID>16</itemID>
+			<title>leaf lobe</title>
+			<itemImage></itemImage>
+			<description>A rounded projection on the edge of a leaf.</description>
+		</GlossaryItem>
+	</GlossaryItems>
+</Key_components>

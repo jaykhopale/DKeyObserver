@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/RelativeLayout" android:layout_width="fill_parent"
+	android:layout_height="30dip" android:background="@drawable/btn_black_glossy">
+	<Button android:id="@+id/doneButtonID" android:layout_height="30dip"
+		android:layout_width="wrap_content" android:gravity="center_vertical"
+		android:layout_marginTop="2dip" android:layout_marginBottom="2dip"
+		android:background="@drawable/backbutton"
+		android:layout_alignParentLeft="true">
+	</Button>
+	<TextView android:id="@+id/title" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true" android:gravity="center"
+		android:ellipsize="end" android:textSize="18dp" />
+	<Button android:id="@+id/informationID" android:layout_height="30dip"
+		android:layout_width="wrap_content" android:gravity="center_vertical"
+		android:background="@android:drawable/ic_dialog_info"
+		android:layout_alignParentRight="true">
+	</Button>
+</RelativeLayout>

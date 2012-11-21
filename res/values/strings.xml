@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, Dkey!</string>
+	<string name="app_name">DKey</string>
+
+	<!-- Preloaded Xml files -->
+	<string name="Oakkey">Oak\'s Key</string>
+	<string name="Pattersonkey">Patterson\'s Key</string>
+</resources>

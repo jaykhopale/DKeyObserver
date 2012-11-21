@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:id="@+id/sendlayout" android:background="#FFFFFF">
+
+	<Button
+	    android:id="@+id/viewobsv"
+	    android:layout_width="100dip"
+	    android:layout_height="60dip"
+	    android:layout_alignLeft="@+id/saveobs"
+	    android:layout_below="@+id/saveobs"
+	    android:layout_marginTop="57dp"
+	    android:background="@drawable/blackbgd"
+	    android:padding="2dip"
+	    android:text="View Observations"
+	    android:textColor="#FFFFFF" />
+
+	<Button
+	    android:id="@+id/saveobs"
+	    android:layout_width="100dip"
+	    android:layout_height="60dip"
+	    android:layout_below="@+id/sendemail"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="54dp"
+	    android:background="@drawable/blackbgd"
+	    android:padding="2dip"
+	    android:text="Save"
+	    android:textColor="#FFFFFF" />
+
+	<Button
+	    android:id="@+id/sendemail"
+	    android:layout_width="100dip"
+	    android:layout_height="60dip"
+	    android:layout_alignLeft="@+id/saveobs"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginTop="60dp"
+	    android:background="@drawable/blackbgd"
+	    android:padding="2dip"
+	    android:text="Send Email"
+	    android:textColor="#FFFFFF" />
+
+</RelativeLayout>

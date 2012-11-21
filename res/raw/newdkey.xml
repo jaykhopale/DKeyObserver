@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Nodes>
+	<organism>
+		<org_id>1</org_id>
+		<common_name>Chinquapin</common_name>
+		<family>Fagaceae</family>
+		<genus>Chrysolepis</genus>
+		<species>chrysophylla</species>
+		<leaves>Leaf long and pointed,flat,5-13cmlong,tough,leathery and
+			evergreen,dark green above and covered with golden scales below,
+			margins entire</leaves>
+		<inflorescence>upright,stiff spike with a few flowers</inflorescence>
+		<flower>6 minute sepals, 8-10+ stamens</flower>
+		<fruit>nuts completely enclosed by a spiny shell</fruit>
+		<ecology>Chaparral</ecology>
+		<seeds>generallyone</seeds>
+		<elevation></elevation>
+		<bioregional_distribution></bioregional_distribution>
+		<taxon_id>165539</taxon_id>
+		<jepson_url>http://ucjeps.berkeley.edu/cgi-bin/get_cpn.pl?19400</jepson_url>
+		<image>oak.jpg</image>
+	</organism>
+	<organism>
+		<org_id>2</org_id>
+		<common_name>TanOak</common_name>
+		<family>Fagaceae</family>
+		<genus>Lithocarpus</genus>
+		<species>densiflorus var. densiflorus</species>
+		<leaves>Evergreen leaves,3-14cm long, margins generally serrated,
+			upper surface smooth with a few hairs,lower surface covered with fine
+			wooly hairs, veins on the lower surface are prominent and end in
+			teeth</leaves>
+		<inflorescence>upright spike with many flowers</inflorescence>
+		<flower>5-6 minute sepals, 10-12 stamens</flower>
+		<fruit>acorn matures in 2years, capcovered with spiky scales</fruit>
+		<ecology>Tan Oak, Madrone, Bay Laurel forest above Redwood forest</ecology>
+		<seeds>generally one</seeds>
+		<elevation></elevation>
+		<bioregional_distribution></bioregional_distribution>
+		<taxon_id>385390</taxon_id>
+		<jepson_url>http://ucjeps.berkeley.edu/cgi-bin/get_cpn.pl?60947</jepson_url>
+		<image>oak.jpg</image>
+	</organism>
+	<organism>
+		<org_id>3</org_id>
+		<common_name>Coast Live Oak</common_name>
+		<family>Fagaceae</family>
+		<genus>Quercus</genus>
+		<species>agrifolia</species>
+		<leaves>Evergreen, leaves thick and leathery, convex shaped and leaf
+			edges curl under, margins entire to toothed with spines or bristles;
+			vein pattern irregular with tufts of hairs on lower side where veins
+			join midrib</leaves>
+		<inflorescence>catkin with many male flowers, small inconspicuous
+			female flowers</inflorescence>
+		<flower></flower>
+		<fruit>acorn cap woolly inside, scales thin and flat</fruit>
+		<ecology>Lower hills and high ridges, especially along seasonal
+			streams with Bay Laurel</ecology>
+		<seeds>generally one</seeds>
+		<elevation></elevation>
+		<bioregional_distribution></bioregional_distribution>
+		<taxon_id>97693</taxon_id>
+		<jepson_url>http://ucjeps.berkeley.edu/cgi-bin/get_cpn.pl?40530</jepson_url>
+		<image>oak.jpg</image>
+	</organism>
+	<organism>
+		<org_id>4</org_id>
+		<common_name>ChaparralOak</common_name>
+		<family>Fagaceae</family>
+		<genus>Quercus</genus>
+		<species>wislizeni</species>
+		<leaves>Leaves evergreen, think and leathery, flat and 2-5 cm long,
+			margins not rolled, upper surface smooth and dark green, lower
+			surface smooth and light yellow-green</leaves>
+		<inflorescence>catkin with many male flowers, small inconspicuous
+			female flowers</inflorescence>
+		<flower>minute calyx</flower>
+		<fruit>acorn, nut tapered from below middle to tip, 2-3cm long, scales
+			thin</fruit>
+		<ecology>Chaparral</ecology>
+		<seeds>generally one</seeds>
+		<elevation></elevation>
+		<bioregional_distribution></bioregional_distribution>
+		<taxon_id>67830</taxon_id>
+		<jepson_url>http://ucjeps.berkeley.edu/cgi-bin/get_cpn.pl?40780</jepson_url>
+		<image>oak.jpg</image>
+	</organism>
+	<organism>
+		<org_id>5</org_id>
+		<common_name>Black Oak</common_name>
+		<family>Fagaceae</family>
+		<genus>Quercus</genus>
+		<species>Kelloggii</species>
+		<leaves>Leaves deciduous and deeply lobed, lobes of leaves are pointed
+			and have several bristle-tipped teeth, lower side somewhat shiny and
+			yellow-green</leaves>
+		<inflorescence>catkin with many male flowers, small inconspicuous
+			female flowers</inflorescence>
+		<flower>minute calyx</flower>
+		<fruit>acorn, 3-4cm long with scaly cap</fruit>
+		<ecology>Large trees in moist valleys, smaller trees on rocky hills</ecology>
+		<seeds>generally one</seeds>
+		<elevation></elevation>
+		<bioregional_distribution></bioregional_distribution>
+		<taxon_id>97698</taxon_id>
+		<jepson_url>http://ucjeps.berkeley.edu/cgi-bin/get_cpn.pl?40652</jepson_url>
+		<image>oak.jpg</image>
+	</organism>
+	<organism>
+		<org_id>6</org_id>
+		<common_name>CanyonLiveOak,GoldcupOak</common_name>
+		<family>Fagaceae</family>
+		<genus>Quercus</genus>
+		<species>chrysolepis</species>
+		<leaves>Leaves evergreen, 3-8 cm long and flat, margins entire on
+			mature leaves, upper surface dark green, lower surface pale
+			blue-green with golden hairs</leaves>
+		<inflorescence>catkin with many male flowers, small inconspicuous
+			female flowers</inflorescence>
+		<flower>minute calyx</flower>
+		<fruit>acorn cap warty and covered with golden scales, acorn 2-3.5cm,
+			ovoid</fruit>
+		<ecology>Canyons and rocky ridges</ecology>
+		<seeds>generally one</seeds>
+		<elevation></elevation>
+		<bioregional_distribution></bioregional_distribution>
+		<taxon_id>97695</taxon_id>
+		<jepson_url>http://ucjeps.berkeley.edu/cgi-bin/get_cpn.pl?40565</jepson_url>
+		<image>oak.jpg</image>
+	</organism>
+	<organism>
+		<org_id>7</org_id>
+		<common_name>Leather Oak</common_name>
+		<family>Fagaceae</family>
+		<genus>Quercus</genus>
+		<species>durata</species>
+		<leaves>Evergreen leaves that are much paler on the lower side, leave
+			convex with curled under edges, margin teeth are spine tipped</leaves>
+		<inflorescence>catkin with many male flowers, small inconspicuous
+			female flowers</inflorescence>
+		<flower>minute calyx</flower>
+		<fruit>acorn</fruit>
+		<ecology></ecology>
+		<seeds>generally one</seeds>
+		<elevation>Serpentine Chaparral</elevation>
+		<bioregional_distribution></bioregional_distribution>
+		<taxon_id></taxon_id>
+		<jepson_url>http://ucjeps.berkeley.edu/cgi-bin/get_cpn.pl?74822</jepson_url>
+		<image>oak.jpg</image>
+	</organism>
+	<organism>
+		<org_id>8</org_id>
+		<common_name>Garry Oak,Oregon Oak</common_name>
+		<family>Fagaceae</family>
+		<genus>Quercus</genus>
+		<species>garryana</species>
+		<leaves>Leaves deciduous, deeply lobed, upper leaf surface shiny green
+			with a waxy coat, lobes are rounded without bristles</leaves>
+		<inflorescence>catkin with many male flowers, small inconspicuous
+			female flowers</inflorescence>
+		<flower>minute calyx</flower>
+		<fruit>acorns wide and squat</fruit>
+		<ecology>Moist or northern slopes, near chaparral</ecology>
+		<seeds>generally one</seeds>
+		<elevation></elevation>
+		<bioregional_distribution></bioregional_distribution>
+		<taxon_id>168162</taxon_id>
+		<jepson_url>http://ucjeps.berkeley.edu/cgi-bin/get_cpn.pl?64728</jepson_url>
+		<image>oak.jpg</image>
+	</organism>
+	<Node>
+		<nodeID>-1</nodeID>
+		<parentID>-1</parentID>
+		<isLeafNode>welcomeView</isLeafNode>
+		<leftChildID></leftChildID>
+		<leftChildDescription></leftChildDescription>
+		<rightChildID></rightChildID>
+		<rightChildDescription></rightChildDescription>
+		<organism_id></organism_id>
+	</Node>
+	<Node>
+		<nodeID>0</nodeID>
+		<parentID>-1</parentID>
+		<isLeafNode>no</isLeafNode>
+		<leftChildID>1</leftChildID>
+		<leftChildDescription>Thin, decidous leaves</leftChildDescription>
+		<rightChildID>1_</rightChildID>
+		<rightChildDescription>Thick, leathery evergreen leaves</rightChildDescription>
+		<organism_id></organism_id>
+	</Node>
+	<Node>
+		<nodeID>1</nodeID>
+		<parentID>0</parentID>
+		<isLeafNode>no</isLeafNode>
+		<leftChildID>2</leftChildID>
+		<leftChildDescription>No bristle and end of leaf lobes</leftChildDescription>
+		<rightChildID>2_</rightChildID>
+		<rightChildDescription>Leaf lobes pointed at tips with a bristle at
+			the end</rightChildDescription>
+		<organism_id></organism_id>
+	</Node>
+	<Node>
+		<nodeID>1_</nodeID>
+		<parentID>0</parentID>
+		<isLeafNode>no</isLeafNode>
+		<leftChildID>3</leftChildID>
+		<leftChildDescription>Leaves flat.</leftChildDescription>
+		<rightChildID>3_</rightChildID>
+		<rightChildDescription>Leaves convex</rightChildDescription>
+		<organism_id></organism_id>
+	</Node>
+	<Node>
+		<nodeID>2</nodeID>
+		<parentID>1</parentID>
+		<isLeafNode>yes</isLeafNode>
+		<leftChildID></leftChildID>
+		<leftChildDescription></leftChildDescription>
+		<rightChildID></rightChildID>
+		<rightChildDescription></rightChildDescription>
+		<organism_id>5</organism_id>
+	</Node>
+	<Node>
+		<nodeID>2_</nodeID>
+		<parentID>1</parentID>
+		<isLeafNode>yes</isLeafNode>
+		<leftChildID></leftChildID>
+		<leftChildDescription></leftChildDescription>
+		<rightChildID></rightChildID>
+		<rightChildDescription></rightChildDescription>
+		<organism_id>8</organism_id>
+	</Node>
+	<Node>
+		<nodeID>3</nodeID>
+		<parentID>1_</parentID>
+		<isLeafNode>no</isLeafNode>
+		<leftChildID>4</leftChildID>
+		<leftChildDescription>Nut completely covered with a spiny case.</leftChildDescription>
+		<rightChildID>4_</rightChildID>
+		<rightChildDescription>Acorn partly covered by an acorn cap</rightChildDescription>
+		<organism_id></organism_id>
+	</Node>
+	<Node>
+		<nodeID>3_</nodeID>
+		<parentID>1_</parentID>
+		<isLeafNode>no</isLeafNode>
+		<leftChildID>5</leftChildID>
+		<leftChildDescription>Growing on lower hills and high ridges,
+			especially along seasonal streams with Bay Laurel.</leftChildDescription>
+		<rightChildID>5_</rightChildID>
+		<rightChildDescription>Growing in chaparral, especially on serpentine
+			outcrops.</rightChildDescription>
+		<organism_id></organism_id>
+	</Node>
+	<Node>
+		<nodeID>4</nodeID>
+		<parentID>3_</parentID>
+		<isLeafNode>yes</isLeafNode>
+		<leftChildID></leftChildID>
+		<leftChildDescription></leftChildDescription>
+		<rightChildID></rightChildID>
+		<rightChildDescription></rightChildDescription>
+		<organism_id>1</organism_id>
+	</Node>
+	<Node>
+		<nodeID>4_</nodeID>
+		<parentID>3</parentID>
+		<isLeafNode>no</isLeafNode>
+		<leftChildID>6</leftChildID>
+		<leftChildDescription>Acord cap covered with scales, acorn thin and
+			tapered.</leftChildDescription>
+		<rightChildID>6_</rightChildID>
+		<rightChildDescription>Acorn cap warty, acorn thick and rounded.</rightChildDescription>
+		<organism_id></organism_id>
+	</Node>
+	<Node>
+		<nodeID>5</nodeID>
+		<parentID>3_</parentID>
+		<isLeafNode>yes</isLeafNode>
+		<leftChildID></leftChildID>
+		<leftChildDescription></leftChildDescription>
+		<rightChildID></rightChildID>
+		<rightChildDescription></rightChildDescription>
+		<organism_id>3</organism_id>
+	</Node>
+	<Node>
+		<nodeID>5_</nodeID>
+		<parentID>3_</parentID>
+		<isLeafNode>yes</isLeafNode>
+		<leftChildID></leftChildID>
+		<leftChildDescription></leftChildDescription>
+		<rightChildID></rightChildID>
+		<rightChildDescription></rightChildDescription>
+		<organism_id>7</organism_id>
+	</Node>
+	<Node>
+		<nodeID>6</nodeID>
+		<parentID>4_</parentID>
+		<isLeafNode>yes</isLeafNode>
+		<leftChildID></leftChildID>
+		<leftChildDescription></leftChildDescription>
+		<rightChildID></rightChildID>
+		<rightChildDescription></rightChildDescription>
+		<organism_id>2</organism_id>
+	</Node>
+	<Node>
+		<nodeID>6_</nodeID>
+		<parentID>4_</parentID>
+		<isLeafNode>no</isLeafNode>
+		<leftChildID>7</leftChildID>
+		<leftChildDescription>Acord cap covered with scales, acorn thin and
+			tapered.</leftChildDescription>
+		<rightChildID>7_</rightChildID>
+		<rightChildDescription>Acorn cap warty, acorn thick and rounded.</rightChildDescription>
+		<organism_id></organism_id>
+	</Node>
+	<Node>
+		<nodeID>7</nodeID>
+		<parentID>6_</parentID>
+		<isLeafNode>yes</isLeafNode>
+		<leftChildID></leftChildID>
+		<leftChildDescription></leftChildDescription>
+		<rightChildID></rightChildID>
+		<rightChildDescription></rightChildDescription>
+		<organism_id>4</organism_id>
+	</Node>
+	<Node>
+		<nodeID>7_</nodeID>
+		<parentID>6_</parentID>
+		<isLeafNode>yes</isLeafNode>
+		<leftChildID></leftChildID>
+		<leftChildDescription></leftChildDescription>
+		<rightChildID></rightChildID>
+		<rightChildDescription></rightChildDescription>
+		<organism_id>6</organism_id>
+	</Node>
+	<GlossaryItem>
+		<itemID>1</itemID>
+		<title>leaf margins entire</title>
+		<itemImage>glossary1.jpg</itemImage>
+		<description>Outer edges of leaves are smooth.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>2</itemID>
+		<title>inflorescence spike</title>
+		<itemImage></itemImage>
+		<description>Flowers arranged along an upright stalk.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>3</itemID>
+		<title>sepal</title>
+		<itemImage></itemImage>
+		<description>Modified leaves surrounding flower petals.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>4</itemID>
+		<title>stamen</title>
+		<itemImage></itemImage>
+		<description>Flower part that releases pollen.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>5</itemID>
+		<title>lleaf margins serrated</title>
+		<itemImage></itemImage>
+		<description>Edges of leaves are jagged.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>6</itemID>
+		<title>spikey scales</title>
+		<itemImage></itemImage>
+		<description>Outer surface of scale has a long, pointed spike.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>7</itemID>
+		<title>calyx</title>
+		<itemImage></itemImage>
+		<description>The sepals of a flower, usually arranged in a cuplike
+			shape.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>8</itemID>
+		<title>catkin</title>
+		<itemImage></itemImage>
+		<description>Dense, drooping collection of flowers without petals.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>9</itemID>
+		<title>scaley cap</title>
+		<itemImage></itemImage>
+		<description>Cap is covered with thin, somewhat convex pointed scales.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>10</itemID>
+		<title>warty cap</title>
+		<itemImage></itemImage>
+		<description>Cap is covered with thick, somewhat concave scales.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>11</itemID>
+		<title>evergreen</title>
+		<itemImage></itemImage>
+		<description>Evergreen leaves are not shed seasonally.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>12</itemID>
+		<title>deciduous</title>
+		<itemImage></itemImage>
+		<description>Deciduous leaves are shed seasonally.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>13</itemID>
+		<title>nut</title>
+		<itemImage></itemImage>
+		<description>Simple, dry fruit with one seed.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>14</itemID>
+		<title>acorn</title>
+		<itemImage></itemImage>
+		<description>The fruit of an oak tree, generally rounded and partially
+			covered by a cap.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>15</itemID>
+		<title>leaf margins deeply lobed</title>
+		<itemImage></itemImage>
+		<description>Leaf edges are smooth but deeply indented.</description>
+	</GlossaryItem>
+	<GlossaryItem>
+		<itemID>16</itemID>
+		<title>leaf lobe</title>
+		<itemImage></itemImage>
+		<description>A rounded projection on the edge of a leaf.</description>
+	</GlossaryItem>
+</Nodes>
