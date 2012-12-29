@@ -13,6 +13,7 @@ import android.view.LayoutInflater;
 import android.widget.ArrayAdapter;
 import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.SimpleAdapter;
 
 public class DkeyViewObservations extends BaseActivity {
 
@@ -37,6 +38,8 @@ public class DkeyViewObservations extends BaseActivity {
 		List<String> values = datasource.getAllObservations();
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
 				R.layout.simplelistrow, values);
+		
+		
 		mainListView.setAdapter(adapter);
 		datasource.close();
 

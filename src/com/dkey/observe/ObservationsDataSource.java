@@ -16,17 +16,6 @@ public class ObservationsDataSource {
 	private SQLiteDatabase db;
 	private MySQLiteHelper dbHelper;
 
-	/*
-	 * private String[] allColumns = { MySQLiteHelper.C_ID,
-	 * MySQLiteHelper.comments, MySQLiteHelper.common_name,
-	 * MySQLiteHelper.family, MySQLiteHelper.genus, MySQLiteHelper.lat,
-	 * MySQLiteHelper.longi, MySQLiteHelper.species, MySQLiteHelper.variety,
-	 * MySQLiteHelper.moreFields1, MySQLiteHelper.moreFields2,
-	 * MySQLiteHelper.moreFields3
-	 * 
-	 * };
-	 */
-
 	public ObservationsDataSource(Context context) {
 		dbHelper = new MySQLiteHelper(context);
 	}
@@ -49,19 +38,17 @@ public class ObservationsDataSource {
 		values.put(MySQLiteHelper.comments,
 				DkeyApplication._controller.getValue("comments"));
 		values.put(MySQLiteHelper.common_name,
-				DkeyApplication._controller.getValue("comments"));
+				DkeyApplication._controller.getValue("common_name"));
 		values.put(MySQLiteHelper.family,
-				DkeyApplication._controller.getValue("comments"));
+				DkeyApplication._controller.getValue("family"));
 		values.put(MySQLiteHelper.genus,
-				DkeyApplication._controller.getValue("comments"));
-		values.put(MySQLiteHelper.genus,
-				DkeyApplication._controller.getValue("comments"));
+				DkeyApplication._controller.getValue("genus"));
 		values.put(MySQLiteHelper.lat,
-				DkeyApplication._controller.getValue("comments"));
+				DkeyApplication._controller.getValue("latitude"));
 		values.put(MySQLiteHelper.longi,
-				DkeyApplication._controller.getValue("comments"));
+				DkeyApplication._controller.getValue("longitude"));
 		values.put(MySQLiteHelper.species,
-				DkeyApplication._controller.getValue("comments"));
+				DkeyApplication._controller.getValue("species"));
 		values.put(MySQLiteHelper.moreFields1,
 				DkeyApplication._controller.getMoreFieldValue(0));
 		values.put(MySQLiteHelper.moreFields2,

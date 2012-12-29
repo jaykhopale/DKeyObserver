@@ -59,6 +59,7 @@ public class BaseActivity extends Activity {
 		informationButton.setOnClickListener(new TitleOnClickListener());
 		TextView titleText = (TextView) titleBar.findViewById(R.id.title);
 		titleText.setText(text);
+		//informationButton.setVisibility(View.GONE);
 		if (!isBackButtonVisible) {
 			backButton.setVisibility(View.GONE);
 		} else {
