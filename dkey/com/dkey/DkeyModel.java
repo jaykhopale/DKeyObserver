@@ -12,6 +12,10 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.w3c.dom.Document;
 import org.xml.sax.SAXException;
 
+import com.dkey.R;
+
+
+
 public class DkeyModel {
 
 	private InputStream _is;

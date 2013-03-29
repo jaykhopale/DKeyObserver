@@ -8,6 +8,8 @@ import org.w3c.dom.NodeList;
 
 import com.dkey.DkeyController.DkeyTabs;
 
+
+
 import android.app.Activity;
 import android.app.ActivityGroup;
 import android.app.AlertDialog;
@@ -59,9 +61,10 @@ public class BaseActivity extends Activity {
 		informationButton.setOnClickListener(new TitleOnClickListener());
 		TextView titleText = (TextView) titleBar.findViewById(R.id.title);
 		titleText.setText(text);
-		//informationButton.setVisibility(View.GONE);
+		informationButton.setVisibility(View.INVISIBLE);
 		if (!isBackButtonVisible) {
 			backButton.setVisibility(View.GONE);
+			informationButton.setVisibility(View.INVISIBLE);
 		} else {
 			backButton.setVisibility(View.VISIBLE);
 		}

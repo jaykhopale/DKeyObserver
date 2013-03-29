@@ -14,6 +14,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
@@ -26,7 +27,7 @@ public class Dkey extends BaseActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dkstart);
         RelativeLayout layout = (RelativeLayout) findViewById( R.id.startlayout);
-        super.addtitleBar(layout,R.layout.dkeytitlebar, "Dichotmous key", false, R.id.informationID, R.id.backButtonID);
+        super.addtitleBar(layout,R.layout.dkeytitlebar, "Dichotomous key", false, R.id.informationID, R.id.backButtonID);
         Button button = (Button) findViewById(R.id.startbutton);
         DkeyApplication._controller.getIsLeafNodeList().add(false);
         super.setOrgID( new Integer( -1 ).toString() );
