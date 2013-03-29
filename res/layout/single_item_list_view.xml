@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/singleitemid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:weightSum="1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/nav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nav"
+                android:layout_gravity="center"
+                android:textColor="#000000" 
+                android:background="@drawable/btn_default_holo_light"
+                android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+            <TextView
+                android:id="@+id/latdisp"
+                android:layout_width="match_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:text="@string/latdisp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" 
+                style="@drawable/btn_default_holo_light"/>
+
+            <TextView
+                android:id="@+id/longdisp"
+                android:layout_width="match_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:text="@string/longdisp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/famdisp"
+                android:layout_width="match_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:text="@string/famdisp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/gendisp"
+                android:layout_width="match_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:text="@string/gendisp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/specdisp"
+                android:layout_width="match_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:text="@string/specdisp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/vardisp"
+                android:layout_width="match_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:text="@string/vardisp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/namdisp"
+                android:layout_width="match_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:text="@string/namdisp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/comdisp"
+                android:layout_width="match_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:text="@string/comdisp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/exfd1"
+                android:layout_width="match_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:text="@string/exfd1"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/exfd2"
+                android:layout_width="match_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:text="@string/exfd2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/exfd3"
+                android:layout_width="match_parent"
+                android:layout_height="37dip"
+                android:layout_marginLeft="5dip"
+                android:text="@string/exfd3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
