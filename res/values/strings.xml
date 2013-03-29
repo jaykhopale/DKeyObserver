@@ -1,9 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Hello World, Dkey!</string>
-	<string name="app_name">DKey</string>
 
-	<!-- Preloaded Xml files -->
-	<string name="Oakkey">Oak\'s Key</string>
-	<string name="Pattersonkey">Patterson\'s Key</string>
+    <string name="hello">Hello World, Dkey!</string>
+    <string name="app_name">DKey</string>
+
+    <!-- Preloaded Xml files -->
+    <string name="Oakkey">Oak\'s Key</string>
+    <string name="Pattersonkey">Patterson\'s Key</string>
+    <string name="lat">Latitude</string>
+    <string name="gps">Get GPS</string>
+    <string name="longi">Longitude</string>
+    <string name="family">Family</string>
+    <string name="genus">Genus</string>
+    <string name="species">Species</string>
+    <string name="variety">Variety</string>
+    <string name="common">Common name</string>
+    <string name="comments">Comments</string>
+    <string name="key1">Key1</string>
+    <string name="key2">Key2</string>
+    <string name="key3">Key3</string>
+    <string name="value1">Value1</string>
+    <string name="value2">Value2</string>
+    <string name="value3">Value3</string>
+    <string name="toEmail">ToEmailID</string>
+    <string name="fromEmail">FromEmailID</string>
+    <string name="subject">Subject</string>
+    <string name="msg">Message</string>
+    <string name="user">Username</string>
+    <string name="maxAttach">Max No of Attachments</string>
+    <string name="latdisp">Latitude :  </string>
+    <string name="longdisp">Longitude : </string>
+    <string name="famdisp">Family : </string>
+    <string name="gendisp">Genus : </string>
+    <string name="specdisp">Species : </string>
+    <string name="vardisp">Variety : </string>
+    <string name="namdisp">Common Name : </string>
+    
+    <string name="comdisp">Comments : </string>
+    <string name="exfd1">Extra Field 1 : </string>
+    <string name="exfd2">Extra Field 2 : </string>
+    <string name="exfd3">Extra Field 3 : </string>
+    <string name="nav">Navigate</string>
+
 </resources>

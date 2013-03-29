@@ -1,107 +1,286 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical" android:layout_width="match_parent"
-	android:layout_height="match_parent" android:weightSum="1" android:id="@+id/notesid"
-	android:background="#FFFFFF">
-	<ScrollView android:layout_height="fill_parent"
-		android:layout_width="fill_parent">
-		<LinearLayout android:orientation="vertical"
-			android:weightSum="1" android:layout_height="match_parent"
-			android:layout_width="match_parent">
-			<Button android:layout_gravity="center_horizontal"
-				android:layout_width="wrap_content" android:text="Get GPS"
-				android:layout_height="wrap_content" android:id="@+id/gpsbutton"></Button>
-			<TextView android:layout_marginLeft="10dip" android:text="Latitude :  "
+    android:id="@+id/notesid"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1" 
+    android:background="#FFFFFF"
+    >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            
+            android:weightSum="1" >
+
+            <Button
+                android:id="@+id/gpsbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/gps"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000"
+                android:background="@drawable/btn_default_holo_light" 
+                >
+            </Button>
+            <!--
+                 <TextView android:layout_marginLeft="10dip" android:text="Latitude :  "
 				android:textColor="#000000" android:id="@+id/lat"
 				android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_height="wrap_content"></TextView>
-			<EditText android:id="@+id/latvalue" android:layout_width="match_parent"
-				android:inputType="textPersonName" android:layout_height="wrap_content"></EditText>
+            -->
 
-			<TextView android:layout_marginLeft="10dip"
+            <EditText
+                android:id="@+id/latvalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/lat"
+                android:inputType="textPersonName"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" 
+                android:background="@drawable/edit_text_holo_light">
+            </EditText>
+
+            <!--
+                 <TextView android:layout_marginLeft="10dip"
 				android:layout_marginBottom="5dip" android:text="Longitude :"
 				android:textColor="#000000" android:id="@+id/longi"
 				android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_height="wrap_content"></TextView>
-			<EditText android:id="@+id/longivalue" android:layout_width="match_parent"
-				android:inputType="textPersonName" android:layout_height="wrap_content"></EditText>
+            -->
 
-			<TextView android:text="Family" android:textColor="#000000"
+            <EditText
+                android:id="@+id/longivalue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/longi"
+                android:inputType="textPersonName"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" 
+                android:background="@drawable/edit_text_holo_light">
+            </EditText>
+
+            <!--
+                 <TextView android:text="Family" android:textColor="#000000"
 				android:id="@+id/textView6" android:layout_width="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_height="wrap_content"></TextView>
-			<EditText android:id="@+id/family" android:layout_width="match_parent"
-				android:inputType="textPersonName" android:layout_height="wrap_content"></EditText>
-			<TextView android:text="Genus" android:textColor="#000000"
+            -->
+
+            <EditText
+                android:id="@+id/family"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/family"
+                android:inputType="textPersonName"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" 
+                android:background="@drawable/edit_text_holo_light">
+
+                <requestFocus />
+            </EditText>
+
+            <!--
+                 <TextView android:text="Genus" android:textColor="#000000"
 				android:id="@+id/textView7" android:layout_width="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_height="wrap_content"></TextView>
-			<EditText android:id="@+id/genus" android:layout_width="match_parent"
-				android:inputType="textPersonName" android:layout_height="wrap_content"></EditText>
-			<TextView android:text="Species" android:textColor="#000000"
+            -->
+
+            <EditText
+                android:id="@+id/genus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/genus"
+                android:inputType="textPersonName"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" 
+                android:background="@drawable/edit_text_holo_light">
+            </EditText>
+            <!--
+                 <TextView android:text="Species" android:textColor="#000000"
 				android:id="@+id/textView8" android:layout_width="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_height="wrap_content"></TextView>
-			<EditText android:id="@+id/species" android:layout_width="match_parent"
-				android:inputType="textPersonName" android:layout_height="wrap_content"></EditText>
-			<TextView android:text="Variety" android:textColor="#000000"
+            -->
+
+            <EditText
+                android:id="@+id/species"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/species"
+                android:inputType="textPersonName"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" 
+                android:background="@drawable/edit_text_holo_light">
+            </EditText>
+            <!--
+                 <TextView android:text="Variety" android:textColor="#000000"
 				android:id="@+id/textView8" android:layout_width="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_height="wrap_content"></TextView>
-			<EditText android:id="@+id/variety" android:layout_width="match_parent"
-				android:inputType="textPersonName" android:layout_height="wrap_content"></EditText>
-			<TextView android:text="Common Name" android:textColor="#000000"
+            -->
+
+            <EditText
+                android:id="@+id/variety"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/variety"
+                android:inputType="textPersonName"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" 
+                android:background="@drawable/edit_text_holo_light">
+            </EditText>
+            <!--
+                 <TextView android:text="Common Name" android:textColor="#000000"
 				android:id="@+id/textView8" android:layout_width="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_height="wrap_content"></TextView>
-			<EditText android:id="@+id/commonname" android:layout_width="match_parent"
-				android:inputType="textPersonName" android:layout_height="wrap_content"></EditText>
-			<TextView android:text="Comments" android:textColor="#000000"
+            -->
+
+            <EditText
+                android:id="@+id/commonname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/common"
+                android:inputType="textPersonName"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" 
+                android:background="@drawable/edit_text_holo_light">
+            </EditText>
+            <!--
+                 <TextView android:text="Comments" android:textColor="#000000"
 				android:id="@+id/textView8" android:layout_width="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_height="wrap_content"></TextView>
-			<EditText android:id="@+id/comments" android:layout_width="match_parent"
-				android:inputType="textPersonName" android:layout_height="wrap_content"></EditText>
-			<!-- <TextView android:text="Variety" android:textColor="#000000" android:id="@+id/textView8" 
+            -->
+
+            <EditText
+                android:id="@+id/comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/comments"
+                android:inputType="textPersonName"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#000000" 
+                android:background="@drawable/edit_text_holo_light">
+            </EditText>
+            <!--
+                 <TextView android:text="Variety" android:textColor="#000000" android:id="@+id/textView8" 
 				android:layout_width="wrap_content" android:textAppearance="?android:attr/textAppearanceMedium" 
 				android:layout_height="wrap_content"></TextView> <EditText android:id="@+id/variety" 
-				android:layout_width="match_parent" android:inputType="textPersonName" android:layout_height="wrap_content"></EditText> -->
-			<TextView android:text="Extra Field 1" android:textColor="#000000"
+				android:layout_width="match_parent" android:inputType="textPersonName" android:layout_height="wrap_content"></EditText>
+            -->
+            <!--
+                 TextView android:text="Extra Field 1" android:textColor="#000000"
 				android:id="@+id/textView8" android:layout_width="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_height="wrap_content"></TextView>
-			<LinearLayout android:orientation="horizontal"
-				android:layout_height="wrap_content" android:layout_width="fill_parent">
-				<EditText android:id="@+id/morekey1" android:layout_width="100dip"
-					android:inputType="textPersonName" android:layout_height="wrap_content"></EditText>
-				<EditText android:id="@+id/morevalue1"
-					android:layout_width="match_parent" android:inputType="textPersonName"
-					android:layout_height="wrap_content"></EditText>
-			</LinearLayout>
-			<TextView android:text="Extra Field 2" android:textColor="#000000"
+            -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/morekey1"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/key1"
+                    android:inputType="textPersonName"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" 
+                    android:background="@drawable/edit_text_holo_light">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/morevalue1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/value1"
+                    android:inputType="textPersonName"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" 
+                    android:background="@drawable/edit_text_holo_light">
+                </EditText>
+            </LinearLayout>
+            <!--
+                 <TextView android:text="Extra Field 2" android:textColor="#000000"
 				android:id="@+id/textView8" android:layout_width="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_height="wrap_content"></TextView>
-			<LinearLayout android:orientation="horizontal"
-				android:layout_height="wrap_content" android:layout_width="fill_parent">
-				<EditText android:id="@+id/morekey2" android:layout_width="100dip"
-					android:inputType="textPersonName" android:layout_height="wrap_content"></EditText>
-				<EditText android:id="@+id/morevalue2"
-					android:layout_width="match_parent" android:inputType="textPersonName"
-					android:layout_height="wrap_content"></EditText>
-			</LinearLayout>
-			<TextView android:text="Extra Field 3" android:textColor="#000000"
+            -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/morekey2"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/key2"
+                    android:inputType="textPersonName"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" 
+                    android:background="@drawable/edit_text_holo_light">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/morevalue2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/value2"
+                    android:inputType="textPersonName"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" 
+                    android:background="@drawable/edit_text_holo_light">
+                </EditText>
+            </LinearLayout>
+            <!--
+                 <TextView android:text="Extra Field 3" android:textColor="#000000"
 				android:id="@+id/textView8" android:layout_width="wrap_content"
 				android:textAppearance="?android:attr/textAppearanceMedium"
 				android:layout_height="wrap_content"></TextView>
-			<LinearLayout android:orientation="horizontal"
-				android:layout_height="wrap_content" android:layout_width="fill_parent">
-				<EditText android:id="@+id/morekey3" android:layout_width="100dip"
-					android:inputType="textPersonName" android:layout_height="wrap_content"></EditText>
-				<EditText android:id="@+id/morevalue3"
-					android:layout_width="match_parent" android:inputType="textPersonName"
-					android:layout_height="wrap_content"></EditText>
-			</LinearLayout>
-		</LinearLayout>
-	</ScrollView>
+            -->
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/morekey3"
+                    android:layout_width="100dip"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/key3"
+                    android:inputType="textPersonName"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" 
+                    android:background="@drawable/edit_text_holo_light">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/morevalue3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/value3"
+                    android:inputType="textPersonName"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000000" 
+                    android:background="@drawable/edit_text_holo_light">
+                </EditText>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>
