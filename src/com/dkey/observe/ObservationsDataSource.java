@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.dkey.DkeyApplication;
+import com.dkey.observe.Observation;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -47,6 +48,8 @@ public class ObservationsDataSource {
 				DkeyApplication._controller.getValue("latitude"));
 		values.put(MySQLiteHelper.longi,
 				DkeyApplication._controller.getValue("longitude"));
+		values.put(MySQLiteHelper.variety,
+				DkeyApplication._controller.getValue("variety"));
 		values.put(MySQLiteHelper.species,
 				DkeyApplication._controller.getValue("species"));
 		values.put(MySQLiteHelper.moreFields1,
@@ -60,23 +63,64 @@ public class ObservationsDataSource {
 
 	}
 
-	public List<String> getAllObservations() {
-		List<String> observations = new ArrayList<String>();
-		String selectQuery = "SELECT * FROM " + MySQLiteHelper.TABLE_OBS;
+	/*
+	 * public List<Observation> getAllObservations() { List<Observation>
+	 * observations = new ArrayList<Observation>(); String selectQuery =
+	 * "SELECT * FROM " + MySQLiteHelper.TABLE_OBS;
+	 * 
+	 * Cursor cursor = db.rawQuery(selectQuery, null); cursor.moveToFirst();
+	 * 
+	 * while (!cursor.isAfterLast()) {
+	 * 
+	 * Observation obsnote = new Observation();
+	 * obsnote.setId(Integer.toString(cursor.getInt(0)));
+	 * obsnote.setCommon_name(cursor.getString(1));
+	 * obsnote.setLatitude(cursor.getString(7));
+	 * obsnote.setLongitude(cursor.getString(8));
+	 * 
+	 * observations.add(obsnote);
+	 * 
+	 * // observations.add(cursor.getString(1)); // Make sure to close the
+	 * cursor cursor.moveToNext(); } cursor.close();
+	 * 
+	 * return observations;
+	 * 
+	 * }
+	 */
 
-		Cursor cursor = db.rawQuery(selectQuery, null);
-		cursor.moveToFirst();
+	public Cursor getAllObservations() {
 
-		while (!cursor.isAfterLast()) {
+		Cursor resultCursor = db.query(MySQLiteHelper.TABLE_OBS, new String[] {
+				MySQLiteHelper.COLUMN_ID, MySQLiteHelper.common_name,
+				MySQLiteHelper.lat, MySQLiteHelper.longi }, null, null, null,
+				null, null);
 
-			observations.add(cursor.getString(0));
-			observations.add(cursor.getString(1));
-			// Make sure to close the cursor
-			cursor.moveToNext();
+		if (resultCursor != null) {
+			resultCursor.moveToFirst();
+
 		}
-		cursor.close();
 
-		return observations;
+		return resultCursor;
+
+	}
+
+	public Cursor getParticularObservation(int id) {
+
+		Cursor resultCursor = db.query(MySQLiteHelper.TABLE_OBS, new String[] {
+				MySQLiteHelper.COLUMN_ID, MySQLiteHelper.common_name,
+				MySQLiteHelper.family, MySQLiteHelper.species,
+				MySQLiteHelper.genus, MySQLiteHelper.comments,
+				MySQLiteHelper.variety, MySQLiteHelper.lat,
+				MySQLiteHelper.longi, MySQLiteHelper.moreFields1,
+				MySQLiteHelper.moreFields2, MySQLiteHelper.moreFields3 },
+				MySQLiteHelper.COLUMN_ID + "=?",
+				new String[] { String.valueOf(id) }, null, null, null, null);
+
+		if (resultCursor != null) {
+			resultCursor.moveToFirst();
+		}
+
+		return resultCursor;
 
 	}
 }

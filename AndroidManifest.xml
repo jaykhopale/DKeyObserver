@@ -4,15 +4,16 @@
     android:versionCode="3"
     android:versionName="1.2" >
 
-    <uses-sdk android:minSdkVersion="7" />
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
 
-    <uses-permission android:name="android.permission.CAMERA" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" >
-    </uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" >
-    </uses-permission>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
 
     <application
         android:name=".DkeyApplication"
@@ -29,90 +30,73 @@
         </activity>
         <activity
             android:name=".DkeyTabActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".DkeyObservation"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".DkeyObserveTabActivity"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".DkeyActivityGroup"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".Dkey"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".DkeySpeciesActivityGroup"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".DkeySpecies"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".Dkeys"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".DkeyNode"
-            android:label="@string/app_name" >
-        </activity>
-        <activity
-            android:name=".DkeyTemplate"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".DkeyGlossaryGroup"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".DkeyGlossary"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".DkeyGlossaryDetails"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".DkeyLeafNode"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".DkeyMoreInfo"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
+
         <!-- Observation tabs -->
         <activity
             android:name=".observe.DkeyConfig"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".observe.CameraDemo"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".observe.DkeySendObservation"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name"
+            android:theme="@style/Theme.NoBackground" />
         <activity
             android:name=".observe.DkeyViewPhotos"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" />
         <activity
             android:name=".observe.DkeyNotes"
-            android:label="@string/app_name" >
-        </activity>
+            android:label="@string/app_name" 
+            />
         <activity
             android:name=".observe.DkeyViewObservations"
             android:label="@string/app_name"
-            android:theme="@style/CustomTheme" >
-        </activity>
+            android:theme="@style/Theme.NoBackground" />
+        <activity 
+            android:name=".observe.SingleListItem"
+            android:label="@string/app_name" />
+        
     </application>
 
 </manifest>
