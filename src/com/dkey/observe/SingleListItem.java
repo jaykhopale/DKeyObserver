@@ -22,7 +22,6 @@ import android.location.LocationManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
-import android.support.v4.app.DialogFragment;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -107,7 +106,7 @@ public class SingleListItem extends BaseActivity {
 
 				mlocManager = (LocationManager) getSystemService(Context.LOCATION_SERVICE);
 				final boolean gpsEnabled = mlocManager
-						.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+						.isProviderEnabled(LocationManager.GPS_PROVIDER);
 				mlocListener = new MyLocationListener();
 
 				if (!gpsEnabled) {
@@ -158,7 +157,7 @@ public class SingleListItem extends BaseActivity {
 				}
 
 				mlocManager.requestLocationUpdates(
-						LocationManager.NETWORK_PROVIDER, 10000, 10,
+						LocationManager.NETWORK_PROVIDER, 0, 0,
 						mlocListener);
 
 				if (locNav != null || gpsEnabled) {
