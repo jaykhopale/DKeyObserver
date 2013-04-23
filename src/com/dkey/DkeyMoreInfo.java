@@ -1,4 +1,3 @@
-
 package com.dkey;
 
 import java.util.ArrayList;
@@ -42,20 +41,22 @@ public class DkeyMoreInfo extends BaseActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.dkmoreinfo);
 		moreinfotable = (LinearLayout) findViewById(R.id.moreinfo);
-		super.addtitleBar(moreinfotable,R.layout.dkeytitlebar,  "More Information", true, R.id.informationID, R.id.backButtonID);
+		super.addtitleBar(moreinfotable, R.layout.dkeytitlebar,
+				"More Information", true, R.id.informationID, R.id.backButtonID);
 		Bundle bundle = getIntent().getExtras();
 		orgID = bundle.getString("orgID");
-		ArrayList<MoreInfoRow> rows = DkeyApplication._controller.processOrganismInformation( orgID);
+		ArrayList<MoreInfoRow> rows = DkeyApplication._controller
+				.processOrganismInformation(orgID);
 		int rowCount = 0;
 		MoreInfoRow[] rowArray = new MoreInfoRow[rows.size()];
-		for(MoreInfoRow moreInfoRow : rows ) {
+		for (MoreInfoRow moreInfoRow : rows) {
 			rowArray[rowCount] = moreInfoRow;
 			rowCount++;
 		}
-		MoreInfoAdapter adapter = new MoreInfoAdapter(this, R.layout.dkeymoreinfo_row, rowArray );
+		MoreInfoAdapter adapter = new MoreInfoAdapter(this,
+				R.layout.dkeymoreinfo_row, rowArray);
 		moreInfoList = (ListView) findViewById(R.id.moreinfotable);
 		moreInfoList.setAdapter(adapter);
 	}
-
 
 }

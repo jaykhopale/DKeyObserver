@@ -21,6 +21,7 @@ import android.content.pm.ActivityInfo;
 import android.os.Bundle;
 import android.os.Environment;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -36,6 +37,7 @@ public class BaseActivity extends Activity {
 	protected ArrayList<View> history;
 	public static BaseActivityGroup currentGroup;
 	public static Activity _currentActivity;
+	private static boolean isBackButton;
 
 	/** Called when the activity is first created. */
 	@Override
@@ -62,6 +64,7 @@ public class BaseActivity extends Activity {
 		TextView titleText = (TextView) titleBar.findViewById(R.id.title);
 		titleText.setText(text);
 		informationButton.setVisibility(View.INVISIBLE);
+		isBackButton = isBackButtonVisible;
 		if (!isBackButtonVisible) {
 			backButton.setVisibility(View.GONE);
 			informationButton.setVisibility(View.INVISIBLE);
@@ -95,7 +98,7 @@ public class BaseActivity extends Activity {
 		public void onClick(View v) {
 			switch (v.getId()) {
 			case R.id.backButtonID:
-				currentGroup.back();
+			currentGroup.back();
 				if (currentGroup instanceof DkeyActivityGroup) {
 					DkeyApplication._controller.getIsLeafNodeList().remove(
 							(DkeyApplication._controller.getIsLeafNodeList()
@@ -190,25 +193,54 @@ public class BaseActivity extends Activity {
 
 	@Override
 	public void onBackPressed() {
-		Context context;
-		if (getParent() instanceof ActivityGroup) {
-			ActivityGroup grp = (ActivityGroup) getParent();
-			context = grp.getParent();
-		} else {
-			context = getParent();
-		}
-		final AlertDialog.Builder b = new AlertDialog.Builder(context);
-		b.setIcon(android.R.drawable.ic_dialog_alert);
-		b.setTitle("Alert !!");
-		b.setMessage("Do you  want to quit the Application?");
-		b.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-			public void onClick(DialogInterface dialog, int which) {
-				finish();
+		//super.onBackPressed();
+		
+		Log.d(BaseActivity.class.getName(), "BackButton:" + Boolean.valueOf(isBackButton).toString());
+		
+		if (currentGroup.history.size() == 1) {
+			final AlertDialog.Builder b = new AlertDialog.Builder(_currentActivity);
+			b.setIcon(android.R.drawable.ic_dialog_alert);
+			b.setTitle("Alert !!");
+			b.setMessage("Do you  want to quit the Application?");
+			b.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+				public void onClick(DialogInterface dialog, int which) {
+					finish();
 
+				}
+			});
+			b.setNegativeButton(android.R.string.no, null);
+			b.show();
+		} else {
+			currentGroup.back();
+			if (currentGroup instanceof DkeyActivityGroup) {
+				DkeyApplication._controller.getIsLeafNodeList()
+						.remove((DkeyApplication._controller
+								.getIsLeafNodeList().size()) - 1);
+				if (!DkeyApplication._controller.getIsLeafNodeList()
+						.get(DkeyApplication._controller.getIsLeafNodeList()
+								.size() - 1)) {
+					DkeyApplication._controller.setOrgID("-1");
+					DkeyApplication._controller.processOrganismNode();
+				}
 			}
-		});
-		b.setNegativeButton(android.R.string.no, null);
-		b.show();
+
+		}
+		
+		
 	}
+	
+	public boolean onKeyDown(int keyCode, KeyEvent event)  
+	  {  
+	         //replaces the default 'Back' button action  
+	         if(keyCode==KeyEvent.KEYCODE_BACK)  
+	         {  
+	        	 Log.d(BaseActivity.class.getName(), "Key back pressed");
+	        	 onBackPressed();
+	        	 return true;
+
+	         }  
+	         
+	         return false;
+	   }
 
 }
